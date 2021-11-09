@@ -106,10 +106,10 @@ GameObject:
   - component: {fileID: 4720706067936712464}
   - component: {fileID: 4720706067936712471}
   - component: {fileID: 4720706067936712467}
-  - component: {fileID: 3041090924693963526}
-  - component: {fileID: -3415799884567622474}
-  - component: {fileID: 2987629742087502946}
-  - component: {fileID: -3456306921889662872}
+  - component: {fileID: 7906082668249832677}
+  - component: {fileID: -5413890903620018986}
+  - component: {fileID: 5734577238976993987}
+  - component: {fileID: -4790884184258773741}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Coin
@@ -207,7 +207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725e44229038a284cbea18ed9a170908, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3041090924693963526
+--- !u!114 &7906082668249832677
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -229,7 +229,7 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
---- !u!114 &-3415799884567622474
+--- !u!114 &-5413890903620018986
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -264,7 +264,7 @@ MonoBehaviour:
   LargeModePositions:
   - {fileID: 0}
   multiPositionArray: []
---- !u!54 &2987629742087502946
+--- !u!54 &5734577238976993987
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -280,7 +280,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-3456306921889662872
+--- !u!114 &-4790884184258773741
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

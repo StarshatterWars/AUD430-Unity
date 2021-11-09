@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
 {
-    AudioSource m_ExplosionSound;
+    //AudioSource m_ExplosionSound;
     Vector3 spawnPlayer;
     public GameObject explosion;
     // Constructor lab 3//
@@ -20,7 +20,7 @@ public class CollisionHandler : MonoBehaviour
     {
         spawnPlayer = transform.position;
         // lab 3 //
-        m_ExplosionSound = GetComponent<AudioSource>();
+        //m_ExplosionSound = GetComponent<AudioSource>();
         bigFont = new GUIStyle();
         bigFont.normal.textColor = new Color(255, 255, 255);
         bigFont.fontSize = 30;
@@ -45,7 +45,7 @@ public class CollisionHandler : MonoBehaviour
     {
         Instantiate(explosion, transform.position, Quaternion.identity);
         transform.position = spawnPlayer;
-        m_ExplosionSound.Play();
+        //m_ExplosionSound.Play();
     }
 
     // lab 3 //
@@ -53,12 +53,11 @@ public class CollisionHandler : MonoBehaviour
         if (other.gameObject.tag == "Coin")
         {
             backpack.AddToBackpack();
-            other.gameObject.GetComponent<SpinCoin>().PlayPickupSound();
-            Destroy(other.gameObject);
+            //other.gameObject.GetComponent<SpinCoin>().PlayPickupSound();
+            Destroy(other.gameObject, 0.419f);
         }
     }
 
-    
     void OnGUI() 
     {
         GUI.Label(new Rect(100, 50, 200, 100), "POINTS: " + backpack.itemCount, bigFont);

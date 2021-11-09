@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6190677E-7892-4D5C-B257-E170C7208904}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{6190677E-7892-4D5C-B257-E170C7208904}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MarioParty" ID="{A0BD6232-E00E-4566-B5FA-FE3ADA5F3F5C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Firework" ID="{D55326DA-F7EA-4444-939D-0399E663FAB1}" WorkUnitID="{B6D842B5-8D00-450B-9B3A-BAABC31C2E15}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CoinPickup" ID="{0E35EA45-EF98-4A8D-9A51-315DAD25426E}" WorkUnitID="{B6D842B5-8D00-450B-9B3A-BAABC31C2E15}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GameMusic" ID="{D927CFDA-0B4A-4EE3-B0FD-3F0953805397}" WorkUnitID="{B6D842B5-8D00-450B-9B3A-BAABC31C2E15}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

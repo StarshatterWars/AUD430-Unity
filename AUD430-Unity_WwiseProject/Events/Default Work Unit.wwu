@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B6D842B5-8D00-450B-9B3A-BAABC31C2E15}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B6D842B5-8D00-450B-9B3A-BAABC31C2E15}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="CoinPickup" ID="{0E35EA45-EF98-4A8D-9A51-315DAD25426E}">
+					<ChildrenList>
+						<Action Name="" ID="{276E326A-4F3E-4ECA-B628-B851D8F34D03}" ShortID="1022878242">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="coin_seq" ID="{E0FC1C2D-2A7B-4371-9AA9-D1B5B1C59B9A}" WorkUnitID="{28A3AD54-9F1E-4525-A6E1-F310CA587889}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Firework" ID="{D55326DA-F7EA-4444-939D-0399E663FAB1}">
+					<ChildrenList>
+						<Action Name="" ID="{291A817C-C916-4F38-B016-17921F633796}" ShortID="95840271">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="smw_firework" ID="{759A885D-781D-4F59-8661-4EDB559C9C64}" WorkUnitID="{28A3AD54-9F1E-4525-A6E1-F310CA587889}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GameMusic" ID="{D927CFDA-0B4A-4EE3-B0FD-3F0953805397}">
+					<ChildrenList>
+						<Action Name="" ID="{0B0DD78E-3BC4-427E-A6D8-AEC91C2719A5}" ShortID="398451442">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="smw_castle_clear" ID="{7FC76545-C553-40F7-8EFB-656AB1E8C31D}" WorkUnitID="{28A3AD54-9F1E-4525-A6E1-F310CA587889}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

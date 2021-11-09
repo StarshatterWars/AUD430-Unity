@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{28A3AD54-9F1E-4525-A6E1-F310CA587889}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{28A3AD54-9F1E-4525-A6E1-F310CA587889}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Audio" ID="{6E09F8B0-4260-4916-8947-957CAB3E1A5B}" ShortID="480643536">
+					<ChildrenList>
+						<Folder Name="Music" ID="{E6BC7387-7FB2-4B0E-9013-0428BD969E57}" ShortID="393481687">
+							<ChildrenList>
+								<Sound Name="smw_castle_clear" ID="{7FC76545-C553-40F7-8EFB-656AB1E8C31D}" ShortID="186885517">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73665163-B305-4ABB-A32D-8D1C04DE9247}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1E395F98-3A87-496A-AF67-B6D9E2F4EC69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="smw_castle_clear" ID="{109C68BB-1699-4CB9-9E1C-2DCB664A2A26}">
+											<Language>SFX</Language>
+											<AudioFile>Audio\Music\smw_castle_clear.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="401290177"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="smw_castle_clear" ID="{109C68BB-1699-4CB9-9E1C-2DCB664A2A26}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="SFX" ID="{26D3FAF3-CEBB-4CF1-8669-E1E5A104A4D1}" ShortID="281342815">
+							<ChildrenList>
+								<Sound Name="smw_coin" ID="{C4DE886F-02A5-4871-8F34-C12D19478247}" ShortID="666764494">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73665163-B305-4ABB-A32D-8D1C04DE9247}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1E395F98-3A87-496A-AF67-B6D9E2F4EC69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="smw_coin" ID="{62296F09-D9B3-416E-83F8-F20D3055A9EA}">
+											<Language>SFX</Language>
+											<AudioFile>smw_coin.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="665517552"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="smw_coin" ID="{62296F09-D9B3-416E-83F8-F20D3055A9EA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="smw_firework" ID="{759A885D-781D-4F59-8661-4EDB559C9C64}" ShortID="567355528">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73665163-B305-4ABB-A32D-8D1C04DE9247}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1E395F98-3A87-496A-AF67-B6D9E2F4EC69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="smw_firework" ID="{D96596EE-5592-4AF6-B129-DE05CE3D250D}">
+											<Language>SFX</Language>
+											<AudioFile>smw_firework.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="157918841"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="smw_firework" ID="{D96596EE-5592-4AF6-B129-DE05CE3D250D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="coin_seq" ID="{E0FC1C2D-2A7B-4371-9AA9-D1B5B1C59B9A}" ShortID="784478262">
+									<PropertyList>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73665163-B305-4ABB-A32D-8D1C04DE9247}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1E395F98-3A87-496A-AF67-B6D9E2F4EC69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="smw_coin_00" ID="{30051157-C2B6-43CF-A027-F510C33AA7FC}" ShortID="402489956">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73665163-B305-4ABB-A32D-8D1C04DE9247}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1E395F98-3A87-496A-AF67-B6D9E2F4EC69}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="smw_coin" ID="{0679B489-5DC1-4FBF-AA0D-E4F1A5FAABEC}">
+													<Language>SFX</Language>
+													<AudioFile>smw_coin.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="665517552"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="smw_coin" ID="{0679B489-5DC1-4FBF-AA0D-E4F1A5FAABEC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="smw_coin_01" ID="{66122276-1C5C-450C-A283-5207EDB2C5D8}" ShortID="116249088">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73665163-B305-4ABB-A32D-8D1C04DE9247}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1E395F98-3A87-496A-AF67-B6D9E2F4EC69}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="smw_coin" ID="{D0340BF1-4191-44FC-A063-ABFD732C8347}">
+													<Language>SFX</Language>
+													<AudioFile>smw_coin.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="665517552"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="smw_coin" ID="{D0340BF1-4191-44FC-A063-ABFD732C8347}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="smw_coin_02" ID="{AB0628F7-0B74-4EE3-88E1-9DB5EEBC46A2}" ShortID="762932032">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>200</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73665163-B305-4ABB-A32D-8D1C04DE9247}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1E395F98-3A87-496A-AF67-B6D9E2F4EC69}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="smw_coin" ID="{229484DA-8B5D-4747-BBE0-350C7B7D2EEF}">
+													<Language>SFX</Language>
+													<AudioFile>smw_coin.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="665517552"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="smw_coin" ID="{229484DA-8B5D-4747-BBE0-350C7B7D2EEF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="smw_coin_03" ID="{BBF1197A-0B3D-41C9-BAF6-2B1B303AB47C}" ShortID="98792151">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>300</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73665163-B305-4ABB-A32D-8D1C04DE9247}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1E395F98-3A87-496A-AF67-B6D9E2F4EC69}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="smw_coin" ID="{B061EEEE-CA3C-4F87-833E-27E45EC7F521}">
+													<Language>SFX</Language>
+													<AudioFile>smw_coin.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="665517552"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="smw_coin" ID="{B061EEEE-CA3C-4F87-833E-27E45EC7F521}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="smw_coin_04" ID="{F796C429-B377-4917-933E-8DC1E451832C}" ShortID="24073273">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>400</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73665163-B305-4ABB-A32D-8D1C04DE9247}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1E395F98-3A87-496A-AF67-B6D9E2F4EC69}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="smw_coin" ID="{1BB3AAEB-D960-48A3-921A-199111D60B06}">
+													<Language>SFX</Language>
+													<AudioFile>smw_coin.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="665517552"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="smw_coin" ID="{1BB3AAEB-D960-48A3-921A-199111D60B06}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="smw_coin_05" ID="{122282E4-608B-4495-9B33-086B7E2ED31F}" ShortID="273885586">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>500</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73665163-B305-4ABB-A32D-8D1C04DE9247}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1E395F98-3A87-496A-AF67-B6D9E2F4EC69}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="smw_coin" ID="{4675B2FD-E2F9-486C-A925-1E0050E25191}">
+													<Language>SFX</Language>
+													<AudioFile>smw_coin.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="665517552"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="smw_coin" ID="{4675B2FD-E2F9-486C-A925-1E0050E25191}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+									<Playlist>
+										<ItemRef Name="smw_coin_00" ID="{30051157-C2B6-43CF-A027-F510C33AA7FC}"/>
+										<ItemRef Name="smw_coin_01" ID="{66122276-1C5C-450C-A283-5207EDB2C5D8}"/>
+										<ItemRef Name="smw_coin_02" ID="{AB0628F7-0B74-4EE3-88E1-9DB5EEBC46A2}"/>
+										<ItemRef Name="smw_coin_03" ID="{BBF1197A-0B3D-41C9-BAF6-2B1B303AB47C}"/>
+										<ItemRef Name="smw_coin_04" ID="{F796C429-B377-4917-933E-8DC1E451832C}"/>
+										<ItemRef Name="smw_coin_05" ID="{122282E4-608B-4495-9B33-086B7E2ED31F}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

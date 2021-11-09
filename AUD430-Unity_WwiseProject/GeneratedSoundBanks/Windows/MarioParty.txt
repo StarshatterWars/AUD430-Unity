@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1533192012	GameMusic			\Default Work Unit\GameMusic	
+	2752428610	CoinPickup			\Default Work Unit\CoinPickup	
+	3737569346	Firework			\Default Work Unit\Firework	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	157918841	smw_firework	C:\Users\Carlo\OneDrive\Documents\GitHub\AUD430-Unity\AUD430-Unity_WwiseProject\.cache\Windows\SFX\smw_firework_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio\SFX\smw_firework		155228
+	401290177	smw_castle_clear	C:\Users\Carlo\OneDrive\Documents\GitHub\AUD430-Unity\AUD430-Unity_WwiseProject\.cache\Windows\SFX\Audio\Music\smw_castle_clear_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio\Music\smw_castle_clear		358126
+	665517552	smw_coin_00	C:\Users\Carlo\OneDrive\Documents\GitHub\AUD430-Unity\AUD430-Unity_WwiseProject\.cache\Windows\SFX\smw_coin_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio\SFX\coin_seq\smw_coin_00		18546
+

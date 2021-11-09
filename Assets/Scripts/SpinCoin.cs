@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class SpinCoin : MonoBehaviour
 {
-    AudioSource m_PickupSound;
+    //AudioSource m_PickupSound;
     //float rotationSpeed = 15f;
     
     void Start()
     {
-        m_PickupSound = GetComponent<AudioSource>();
+        //m_PickupSound = GetComponent<AudioSource>();
     }
     // Update is called once per frame
     void Update()
@@ -20,6 +20,6 @@ public class SpinCoin : MonoBehaviour
 
     public void PlayPickupSound()
     {
-        m_PickupSound.Play();
+        //m_PickupSound.Play();
     }
 }

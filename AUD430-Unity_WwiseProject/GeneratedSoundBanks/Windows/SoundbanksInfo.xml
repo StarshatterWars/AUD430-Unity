@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Carlo\OneDrive\Documents\GitHub\AUD430-Unity\AUD430-Unity_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Carlo\OneDrive\Documents\GitHub\AUD430-Unity\AUD430-Unity_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Carlo\OneDrive\Documents\GitHub\AUD430-Unity\AUD430-Unity_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Carlo\OneDrive\Documents\GitHub\AUD430-Unity\AUD430-Unity_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3996083729" Language="SFX" Hash="275561862">
+			<ObjectPath>\SoundBanks\Default Work Unit\MarioParty</ObjectPath>
+			<ShortName>MarioParty</ShortName>
+			<Path>MarioParty.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2752428610" Name="CoinPickup" ObjectPath="\Events\Default Work Unit\CoinPickup" DurationType="OneShot" DurationMin="0.313965" DurationMax="0.419093">
+					<IncludedMemoryFiles>
+						<File Id="665517552" Language="SFX">
+							<ShortName>smw_coin.wav</ShortName>
+							<Path>SFX\smw_coin_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3737569346" Name="Firework" ObjectPath="\Events\Default Work Unit\Firework" DurationType="OneShot" DurationMin="3.518458" DurationMax="3.518458">
+					<IncludedMemoryFiles>
+						<File Id="157918841" Language="SFX">
+							<ShortName>smw_firework.wav</ShortName>
+							<Path>SFX\smw_firework_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1533192012" Name="GameMusic" ObjectPath="\Events\Default Work Unit\GameMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="401290177" Language="SFX">
+							<ShortName>Audio\Music\smw_castle_clear.wav</ShortName>
+							<Path>SFX\Audio\Music\smw_castle_clear_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
